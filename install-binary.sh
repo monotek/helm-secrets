@@ -2,7 +2,7 @@
 
 set -ueo pipefail
 
-SOPS_VERSION="3.5.0"
+SOPS_VERSION="v3.5.0"
 SOPS_DEB_URL="https://github.com/mozilla/sops/releases/download/${SOPS_VERSION}/sops_${SOPS_VERSION}_amd64.deb"
 SOPS_DEB_SHA="9d9f319882ba05e7050be91bdfc396167ac9b00e2e6f634a647d55ac97915bb6"
 SOPS_LINUX_URL="https://github.com/mozilla/sops/releases/download/${SOPS_VERSION}/sops-${SOPS_VERSION}.linux"
